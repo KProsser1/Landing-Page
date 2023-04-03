@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body    {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.top {
+    background-color: #1F2937;
+    padding: 10%;
+    padding-top: 0px;
+    border-bottom: 5px solid #e5e7eb;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    margin: 25px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.head2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+
+.awesome {
+    margin-right: 0;
+}
+
+.awesome .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    max-width: 50%;
+    padding-bottom: 24px;
+}
+
+.awesome .info {
+    font-size 18px;
+    color: #e5e7eb;
+    max-width: 50%;
+    padding-bottom: 24px;
+}
+
+.signup {
+    border-radius: 5px;
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 8px;
+}
+
+.image {
+    margin: 0;
+    justify-self: center;
+    align-self: center;
+}
+
+.random {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.random .title {
+    margin: 52px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.b {
+    width: 100px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote .Thor {
+    align-self: end;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    padding-right: 150px;
+}
+
+.quote .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+}
+
+.quote .q {
+    display: flex;
+    width: 700px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 52px;
+}
+
+.end .blue {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 75%;
+    margin: 52px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.blue .bold {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call {
+    color: white;
+}
+
+.sign {
+    background-color: #3882f6;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    color: #e5e7eb;
+}
